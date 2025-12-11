@@ -55,10 +55,10 @@ You can modify:
 For more customization follow the VincentGarreau's repository
 [Repo Link](https://github.com/VincentGarreau/particles.js)
 or website
-[Website] (https://vincentgarreau.com/particles.js/)
+[Website](https://vincentgarreau.com/particles.js/)
 
 ## Demo
-[Live Demo Link] (https://fahimsahriar.github.io/particles-gradient-hero/)
+[Visit Live Demo](https://fahimsahriar.github.io/particles-gradient-hero/)
 ## License
 
 MIT License
