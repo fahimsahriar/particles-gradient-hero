@@ -58,7 +58,7 @@ or website
 [Website] (https://vincentgarreau.com/particles.js/)
 
 ## Demo
-
+[Live Demo Link] (https://fahimsahriar.github.io/particles-gradient-hero/)
 ## License
 
 MIT License
