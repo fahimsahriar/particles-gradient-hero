@@ -33,15 +33,16 @@ git clone https://github.com/yourusername/particles-gradient-hero.git
 3. Customize particle settings inside:
 
 ```
-/app.js
+app.js
 ```
 
 ## Folder Structure
 
 ```
-/styles.css
+styles.css
 index.html
 README.md
+app.js
 ```
 
 ## Configuration
