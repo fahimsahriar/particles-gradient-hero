@@ -51,6 +51,8 @@ You can modify:
 
 * Particle count
 * Speed and size
+* Fps for gpu usage limitation
+* Tune size and speed for different screen-size
 * Interaction effects (hover, click)
 * Gradient animation timing and colors
 For more customization follow the VincentGarreau's repository
