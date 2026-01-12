@@ -1,87 +1,75 @@
-/* ---- reset ---- */
-
-body {
+body,
+html {
     margin: 0;
-    font: normal 75% Arial, Helvetica, sans-serif;
-}
-
-canvas {
-    display: block;
-    vertical-align: bottom;
-}
-
-
-
-/* ---- particles.js container ---- */
-
-#particles-js {
-    position: relative;
+    padding: 0;
     width: 100%;
     height: 100%;
+    background-color: #050917;
     overflow: hidden;
 }
-.light-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
 
+/* Container for all particle layers */
+.particles-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
     background: radial-gradient(ellipse 100% 80% at 50% 0%,
             rgba(23, 92, 255, 0.35) 0%,
             rgba(23, 92, 255, 0.22) 25%,
             rgba(23, 92, 255, 0.12) 50%,
             rgba(23, 92, 255, 0.05) 70%,
             transparent 80%);
-    background-color: #000;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    /* z-index: 2; */
+}
+
+/* Generic style for all layers */
+.particle-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+    /* Important: lets clicks pass through to layers below */
+}
+
+/* Specific Filters */
+#particles-js {
+    z-index: 1;
 }
 
 #particles-js2 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    z-index: 2;
 }
 
 #particles-js3 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    z-index: 3;
     filter: blur(2px);
 }
 
 #particles-js4 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    z-index: 4;
     filter: blur(2px);
 }
 
 #particles-js5 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    z-index: 5;
     filter: blur(5px);
 }
 
 #particles-js6 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    z-index: 6;
     filter: blur(5px);
 }
 
 #particles-js7 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    z-index: 7;
     filter: blur(7px);
 }
 
 #particles-js8 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    filter: blur(7px);
+    z-index: 8;
+    filter: blur(8px);
 }
